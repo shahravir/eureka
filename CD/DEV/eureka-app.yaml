@@ -11,7 +11,7 @@ spec:
   source:
     path: CD/DEV
     repoURL: https://github.com/shahravir/eureka.git
-    targetRevision: main
+    targetRevision: develop
   syncPolicy:
     automated:
       prune: true
