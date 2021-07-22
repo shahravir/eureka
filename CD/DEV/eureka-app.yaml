@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: dev
     server: https://kubernetes.default.svc
-  project: default
+  project: dev
   source:
     path: CD/DEV
     repoURL: https://github.com/shahravir/eureka.git
@@ -15,7 +15,7 @@ spec:
   syncPolicy:
     automated:
       prune: true
-      selfHeal: false
+      selfHeal: true
     syncOptions:
       - CreateNamespace=true
 
