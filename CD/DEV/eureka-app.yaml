@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: dev
     server: https://kubernetes.default.svc
-  project: dev
+  project: default
   source:
     path: CD/DEV
     repoURL: https://github.com/shahravir/eureka.git
